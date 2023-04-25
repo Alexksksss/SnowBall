@@ -22,7 +22,8 @@ public:
     ~snow();
     void paintEvent(QPaintEvent*);
     void drawLine(QPainter &painter, int width, int height);
-    void drawOctagon(QPainter &painter, int x, int y);
+    void drawOctagon(QPainter &painter);
+    //void drawDot(QPainter &painter, int x, int y);
 
 private:
     Ui::snow *ui;
